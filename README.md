@@ -1,7 +1,7 @@
 
 # CzechLevels
 
-Czech translation of Levelsversion 5.4.00
+Czech translation of Levels version 5.4.00
 
 ## Popis
 Tento modul poskytuje českou lokalizaci pro Levels verze 5.4.0. Obsahuje překlady základních textů aplikace.
