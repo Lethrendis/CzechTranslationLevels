@@ -1,0 +1,28 @@
+{
+  "id": "czechtranslationlevels",
+  "title": "CzechTranslationLevels",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12.331",
+    "verified": "12.331"
+  },
+  "description": "Český překlad modulu Levels.",
+  "authors": [
+    {
+      "name": "Lethrendis",
+      "email": "michmildub@seznam.cz",
+      "discord": "Lethrendis",
+      "flags": {}
+    }
+  ],
+  "languages": [
+      {
+      "lang": "cs",
+      "name": "Čeština",
+      "path": "lang/cs.json"
+    }
+  ],
+  "url": "https://github.com/Lethrendis/CzechTranslationLevels",
+  "manifest": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationLevels/main/module.json",
+  "download": "https://github.com/Lethrendis/CzechTranslationLevels/archive/refs/heads/main.zip"
+}
