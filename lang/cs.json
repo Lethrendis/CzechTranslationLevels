@@ -1,6 +1,12 @@
 {
 "levels": {
-        "modulename": "Úrovně",
+        "modulename": "Úrovně (Levels)",
+        "multiLevelFog": {
+            "createdScenes": "Vytvořeno %n scén. <a href='https://wiki.theripper93.com/levels#multilevel-fog-of-war' target='_blank'>Více informací</a>",
+            "noLevels": "Tato scéna nemá víc úrovní.",
+            "alreadyExists": "Scéna již existuje, prosím zobraz ji a resetuj její mlhu, aby se resetovala mlha konkrétní úrovně, nebo scénu smaž a znovu inicializuj víceúrovňovou mlhu. Scéna: ",
+            "advancedFogWarn": "Levels: Aby fungovala Víceúrovňová mlha, musí být Pokročilá mlha války vypnutá. Vypni ji v nastavení modulu, nebo jednotlivě v každé dlaždici."
+        },
         "settings": {
             "enableTooltips": {
                 "name": "Povolení popisků",
@@ -46,6 +52,10 @@
                 "name": "Nejpřesnější viditelnost tokenu",
                 "hint": "Pro tuto možnost musí být povolena ´Přesná viditelnost tokenu´. Tato možnost provádí kontrolu v 11 bodech kolem rohů tokenu. Doporučeno při použití ´3D Canvas´."
             },
+            "multilevelFogFolder": {
+                "name": "Složka Víceúrovňové mlhy",
+                "hint": "Název složky pro ukládání vygenerovaných scén pro Víceúrovňovou mlhu války."
+            },
             "blockSightMovement": {
                 "name": "Plot",
                 "hint": "Pokud je zaškrtnuto, tak zdi s výškou neomezující vidění budou stále omezovat pohyb."
@@ -67,7 +77,7 @@
             },
             "strictVisionCheck": {
                 "name": "Přísná kontrola vidění",
-                "hint": "Pokud je vypnuto, zdroje světla typu ´Temnota´ nebudou vidění blokovat. Pokud je zapnuto, žtak tokeny mimo zorný polygon, ale viditelné pro 3D výpočty vidění, budou viditelné."
+                "hint": "Pokud je vypnuto, zdroje světla typu ´Temnota´ nebudou vidění blokovat. Pokud je zapnuto, tak tokeny mimo zorný polygon, ale viditelné pro 3D výpočty vidění, budou viditelné."
             },
             "migrateOnStartup": {
                 "name": "Migrace nastavení při spuštění",
@@ -106,7 +116,7 @@
                 "name": "Vyloučení z kontroly scény"
             },
             "noCollision": {
-                "name": "Povolení viditelnost",
+                "name": "Povolení viditelnosti",
                 "hint": "Pokud je zaškrtnuto, dlaždice nebude blokovat vidění."
             },
             "allWallBlockSight": {
@@ -125,8 +135,8 @@
                 "name": "Rozsah otvoru"
             },
             "elevatorFloors": {
-                "name": "Podlaží výtahu",
-                "hint": "Definuje podlaží jako: výška,název|výška,název... - např. 0,Přízemí|10,První patro..."
+                "name": "Patro výtahu",
+                "hint": "Definuje patro jako: výška,název|výška,název... - např. 0,Přízemí|10,První patro..."
             },
             "isHole": {
                 "name": "Režim kreslení úrovní",
@@ -226,7 +236,7 @@
                 "content": "Získat úrovně z aktuální scény? Tímto přepíšeš své aktuální úrovně."
             },
             "elevator": {
-                "title": "Úrovně - Výber podlaží"
+                "title": "Úrovně - Výber patra"
             },
             "elevation": {
                 "title": "Nastavení výšky pro další umístění šablony"
@@ -250,6 +260,7 @@
             "addLevel": "Přidat novou úroveň",
             "editLevels": "Upravit úrovně",
             "getFromScene": "Získat úrovně ze scény",
+            "fog": "Nastavení Vídeúrovňové mlhy války (BETA)",
             "clearLevels": "Odstranit úrovně",
             "debugScene": "Ladit scénu (červená znamená detekované problémy)",
             "minElevDiff": "Minimální velikost úrovně",
