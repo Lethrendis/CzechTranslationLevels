@@ -1,11 +1,11 @@
 {
 "levels": {
-        "modulename": "Úrovně (Levels)",
+        "modulename": "Levels (Úrovně)",
         "multiLevelFog": {
             "createdScenes": "Vytvořeno %n scén. <a href='https://wiki.theripper93.com/levels#multilevel-fog-of-war' target='_blank'>Více informací</a>",
             "noLevels": "Tato scéna nemá víc úrovní.",
             "alreadyExists": "Scéna již existuje, prosím zobraz ji a resetuj její mlhu, aby se resetovala mlha konkrétní úrovně, nebo scénu smaž a znovu inicializuj víceúrovňovou mlhu. Scéna: ",
-            "advancedFogWarn": "Levels: Aby fungovala Víceúrovňová mlha, musí být Pokročilá mlha války vypnutá. Vypni ji v nastavení modulu, nebo jednotlivě v každé dlaždici."
+            "advancedFogWarn": "Levels: Aby fungovala víceúrovňová mlha, musí být Pokročilá mlha války vypnutá. Vypni ji v nastavení modulu, nebo jednotlivě v každé dlaždici."
         },
         "settings": {
             "enableTooltips": {
@@ -184,7 +184,7 @@
         },
         "controls": {
             "main": {
-                "name": "Úrovně"
+                "name": "Levels (Úrovně)"
             },
             "levelsview": {
                 "name": "Povolit zobrazení/umístění úrovní"
@@ -236,17 +236,17 @@
                 "content": "Získat úrovně z aktuální scény? Tímto přepíšeš své aktuální úrovně."
             },
             "elevator": {
-                "title": "Úrovně - Výber patra"
+                "title": "Levels - Výber patra"
             },
             "elevation": {
                 "title": "Nastavení výšky pro další umístění šablony"
             },
             "sceneDrop": {
-                "title": "Úrovně - Vložení scény",
+                "title": "Levels - Vložení scény",
                 "content": "Všechny prvky z vložené scény budou umístěny na aktuální úroveň. Opravdu chceš pokračovat?"
             },
             "checkScene": {
-                "title": "Úrovně - Kontrola scény",
+                "title": "Levels - Kontrola scény",
                 "content": "Byly detekovány dlaždice s polygony, které možná nebyly automaticky detekovány či správně definovány. Prosím, pečlivě zkontroluj následující dlaždice:",
                 "learnMore": "Nevíš, co je polygon? Máš jiné problémy? Podívej se na webovou stránku Úrovní, kde je video věnované polygonu!",
                 "noIssues": "Nebyla zjištěna žádná problémová místa!",
@@ -254,7 +254,7 @@
             }
         },
         "ui": {
-            "title": "Úrovně - Nástroj vrstev",
+            "title": "Levels - Nástroj vrstev",
             "players": "Zobrazit hráče",
             "stair": "Umístit oblasti jako schody",
             "addLevel": "Přidat novou úroveň",
@@ -272,7 +272,7 @@
             "no": "Zrušit"
         },
         "widget": {
-            "title": "Úrovně",
+            "title": "Levels",
             "element": "Úroveň"
         },
         "form": {
@@ -286,16 +286,16 @@
             "autoLevels": "Získat úrovně ze scény"
         },
         "err": {
-            "collision": "Úrovně: Pokus o pohyb koliduje s alespoň jednou podlahou, nebo stropem.",
-            "tokenOOB": "Úrovně: Výška tokenu %n přesahuje strop aktuálně vybrané úrovně. Prosím, manuálně nastav výšku tokenu, nebo zvyš úroveň. Více informací <a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>zde</a>.",
-            "wallheight": "VAROVÁNÍ! Úrovně pro správnou funkčnost vyžadují ´Wall Height´ verzi 4.1.0 nebo vyšší.",
-            "lessfog": "Úrovně: VAROVÁNÍ! Detekován modul ´Less Fog´ – viditelnost tokenů nebude fungovat správně. Prosím, deaktivuj jeden z těchto modulů.",
-            "tokenheight": "Úrovně: VAROVÁNÍ! Detekována povolená možnost 'Povolit výšku tokenu' v modulu ´Wall Height´ – tato volba není kompatibilní s Úrovněmi a byla deaktivována!",
-            "elevatedvision": "Úrovně: VAROVÁNÍ! Detekována povolená možnost 'Výchozí pro automatickou výšku tokenu' v modulu ´Elevated Vision´ – tato volba narušuje běžnou funkčnost Úrovní a byla deaktivována!",
-            "elevatedvisioncompat": "Úrovně: VAROVÁNÍ! Detekován modul ´Elevated Vision´ – tento modul narušuje běžnou funkčnost Úrovní a neměl by být současně s Úrovněmi používán."
+            "collision": "Levels: Pokus o pohyb koliduje s alespoň jednou podlahou, nebo stropem.",
+            "tokenOOB": "Levels: Výška tokenu %n přesahuje strop aktuálně vybrané úrovně. Prosím, manuálně nastav výšku tokenu, nebo zvyš úroveň. Více informací <a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>zde</a>.",
+            "wallheight": "VAROVÁNÍ! Levels pro správnou funkčnost vyžadují ´Wall Height´ verze 4.1.0 nebo vyšší.",
+            "lessfog": "Levels: VAROVÁNÍ! Detekován modul ´Less Fog´ – viditelnost tokenů nebude fungovat správně. Prosím, deaktivuj jeden z těchto modulů.",
+            "tokenheight": "Levels: VAROVÁNÍ! Detekována povolená možnost 'Povolit výšku tokenu' v modulu ´Wall Height´ – tato volba není kompatibilní s Úrovněmi a byla deaktivována!",
+            "elevatedvision": "Levels: VAROVÁNÍ! Detekována povolená možnost 'Výchozí pro automatickou výšku tokenu' v modulu ´Elevated Vision´ – tato volba narušuje běžnou funkčnost Úrovní a byla deaktivována!",
+            "elevatedvisioncompat": "Levels: VAROVÁNÍ! Detekován modul ´Elevated Vision´ – tento modul narušuje běžnou funkčnost Úrovní a neměl by být současně s Úrovněmi používán."
         },
         "info": {
-            "advancedMode": "Úrovně: Možnost Pokročilý režim v ´Better Roofs´ byla povolena."
+            "advancedMode": "Levels: Možnost Pokročilý režim v ´Better Roofs´ byla povolena."
         },
         "firsttime": {
             "dialog": "."
