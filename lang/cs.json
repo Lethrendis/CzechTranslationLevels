@@ -5,7 +5,7 @@
             "createdScenes": "Vytvořeno %n scén. <a href='https://wiki.theripper93.com/levels#multilevel-fog-of-war' target='_blank'>Více informací</a>",
             "noLevels": "Tato scéna nemá víc úrovní.",
             "alreadyExists": "Scéna již existuje, prosím zobraz ji a resetuj její mlhu, aby se resetovala mlha konkrétní úrovně, nebo scénu smaž a znovu inicializuj víceúrovňovou mlhu. Scéna: ",
-            "advancedFogWarn": "Levels: Aby fungovala víceúrovňová mlha, musí být Pokročilá mlha války vypnutá. Vypni ji v nastavení modulu, nebo jednotlivě v každé dlaždici."
+            "advancedFogWarn": "Levels: Aby fungovala víceúrovňová mlha, musí být vypnutá ´Pokročilá válečná mlha´. Vypni ji v nastavení modulu, nebo jednotlivě v každé dlaždici."
         },
         "settings": {
             "enableTooltips": {
@@ -21,8 +21,8 @@
                 "hint": "Vynásobí měřítko výšky tímto číslem. Číslo větší než 1 tokeny zvětší, zatímco číslo menší než 1 je zmenší."
             },
             "fogHiding": {
-                "name": "Pokročilá mlha války",
-                "hint": "Skrýt neprobádaná patra z prozkoumané mlhy války."
+                "name": "Pokročilá válečná mlha",
+                "hint": "Skrýt neprobádaná patra z prozkoumané válečné mlhy."
             },
             "lockElevation": {
                 "name": "Uzamknout výšku",
@@ -54,7 +54,7 @@
             },
             "multilevelFogFolder": {
                 "name": "Složka Víceúrovňové mlhy",
-                "hint": "Název složky pro ukládání vygenerovaných scén pro Víceúrovňovou mlhu války."
+                "hint": "Název složky pro ukládání vygenerovaných scén pro víceúrovňovou válečnou mlhu."
             },
             "blockSightMovement": {
                 "name": "Plot",
@@ -73,7 +73,7 @@
             },
             "revealTokenInFog": {
                 "name": "Odhalení tokenu v mlze",
-                "hint": "Pokud je token viditelný, odhalí mlhu války kolem sebe."
+                "hint": "Pokud je token viditelný, odhalí válečnou mlhu kolem sebe."
             },
             "strictVisionCheck": {
                 "name": "Přísná kontrola vidění",
@@ -107,7 +107,7 @@
             },
             "noFogHide": {
                 "name": "V mlze se tato dlaždice nebude skrývat",
-                "hint": "Vyloučí tuto dlaždici z 'Pokročilé mlhy války'."
+                "hint": "Vyloučí tuto dlaždici z pokročilé válečné mlhy."
             },
             "range": {
                 "unit": "Výška"
@@ -136,10 +136,10 @@
             },
             "elevatorFloors": {
                 "name": "Patro výtahu",
-                "hint": "Definuje patro jako: výška,název|výška,název... - např. 0,Přízemí|10,První patro..."
+                "hint": "Definuje patro pomocí: výška,název|výška,název... - např. 0,Přízemí|10,První patro..."
             },
             "isHole": {
-                "name": "Režim kreslení úrovní",
+                "name": "Levels - Kreslení úrovní",
                 "opt0": "Žádný",
                 "opt1": "Otvor",
                 "opt2": "Schodiště",
@@ -149,7 +149,7 @@
             }
         },
         "drawingHud": {
-            "title": "Přepnout uzamčený stav schodiště"
+            "title": "Přepínač zamčení schodiště"
         },
         "tokenconfig": {
             "tokenHeight": {
@@ -223,13 +223,13 @@
                 "content": "Vymazat všechny uložené úrovně?"
             },
             "define": {
-                "warn": "Definuj úrovně jako: spodní, horní|spodní, horní - např. 0,9|10,19|20,29",
+                "warn": "Definuje úrovně jako: spodní, horní|spodní, horní - např. 0,9|10,19|20,29",
                 "title": "Definování úrovní této scény",
                 "text": "Úrovně: "
             },
             "removeLevel": {
                 "title": "Odstranit úroveň",
-                "content": "Opravdu chceš odstranit tuto úroveň?"
+                "content": "Opravdu chceš tuto úroveň odstranit?"
             },
             "getFromScene": {
                 "title": "Získat úrovně ze scény",
@@ -260,12 +260,12 @@
             "addLevel": "Přidat novou úroveň",
             "editLevels": "Upravit úrovně",
             "getFromScene": "Získat úrovně ze scény",
-            "fog": "Nastavení Vídeúrovňové mlhy války (BETA)",
-            "clearLevels": "Odstranit úrovně",
+            "fog": "Nastavit víceúrovňovou válečnou mlhu (BETA)",
+            "clearLevels": "Vyčistit úrovně",
             "debugScene": "Ladit scénu (červená znamená detekované problémy)",
             "minElevDiff": "Minimální velikost úrovně",
             "tokenAttacher": "Umístit prefaby připojené k tokenu relativně k aktuální úrovni<hr>Pokud NEumisťuješ prefaby, musí být tato možnost VYPNUTA.",
-            "warning": "VAROVÁNÍ! V nastavení scény je povolena možnost 'Nevypínat osvětlení' – více úrovní tak nebude správně fungovat. Kliknutím tento problém vyřešíš."
+            "warning": "VAROVÁNÍ! V nastavení scény je povolena možnost 'Nevypínat osvětlení' – vícenásobné úrovně tak nebude správně fungovat. Kliknutí tento problém vyřeší."
         },
         "yesnodialog": {
             "yes": "Potvrdit",
@@ -295,7 +295,7 @@
             "elevatedvisioncompat": "Levels: VAROVÁNÍ! Detekován modul ´Elevated Vision´ – tento modul narušuje běžnou funkčnost Úrovní a neměl by být současně s Úrovněmi používán."
         },
         "info": {
-            "advancedMode": "Levels: Možnost Pokročilý režim v ´Better Roofs´ byla povolena."
+            "advancedMode": "Levels: Myla povolena možnost Pokročilý režim v modulu ´Better Roofs´."
         },
         "firsttime": {
             "dialog": "."
