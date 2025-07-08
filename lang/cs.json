@@ -139,7 +139,7 @@
                 "hint": "Definuje patro pomocí: výška,název|výška,název... - např. 0,Přízemí|10,První patro..."
             },
             "isHole": {
-                "name": "Levels - Kreslení úrovní",
+                "name": "Levels: Kreslení",
                 "opt0": "Žádný",
                 "opt1": "Otvor",
                 "opt2": "Schodiště",
@@ -184,7 +184,7 @@
         },
         "controls": {
             "main": {
-                "name": "Levels (Úrovně)"
+                "name": "Úrovně"
             },
             "levelsview": {
                 "name": "Povolit zobrazení/umístění úrovní"
@@ -236,17 +236,17 @@
                 "content": "Získat úrovně z aktuální scény? Tímto přepíšeš své aktuální úrovně."
             },
             "elevator": {
-                "title": "Levels - Výber patra"
+                "title": "Levels: Výběr patra"
             },
             "elevation": {
                 "title": "Nastavení výšky pro další umístění šablony"
             },
             "sceneDrop": {
-                "title": "Levels - Vložení scény",
+                "title": "Levels: Vložení scény",
                 "content": "Všechny prvky z vložené scény budou umístěny na aktuální úroveň. Opravdu chceš pokračovat?"
             },
             "checkScene": {
-                "title": "Levels - Kontrola scény",
+                "title": "Levels: Kontrola",
                 "content": "Byly detekovány dlaždice s polygony, které možná nebyly automaticky detekovány či správně definovány. Prosím, pečlivě zkontroluj následující dlaždice:",
                 "learnMore": "Nevíš, co je polygon? Máš jiné problémy? Podívej se na webovou stránku Úrovní, kde je video věnované polygonu!",
                 "noIssues": "Nebyla zjištěna žádná problémová místa!",
@@ -254,16 +254,16 @@
             }
         },
         "ui": {
-            "title": "Levels - Nástroj vrstev",
+            "title": "Nástroj úrovní",
             "players": "Zobrazit hráče",
-            "stair": "Umístit oblasti jako schody",
+            "stair": "Umístit oblasti coby schody",
             "addLevel": "Přidat novou úroveň",
             "editLevels": "Upravit úrovně",
             "getFromScene": "Získat úrovně ze scény",
             "fog": "Nastavit víceúrovňovou válečnou mlhu (BETA)",
-            "clearLevels": "Vyčistit úrovně",
+            "clearLevels": "Odstranit úrovně",
             "debugScene": "Ladit scénu (červená znamená detekované problémy)",
-            "minElevDiff": "Minimální velikost úrovně",
+            "minElevDiff": "Minimální výška úrovně",
             "tokenAttacher": "Umístit prefaby připojené k tokenu relativně k aktuální úrovni<hr>Pokud NEumisťuješ prefaby, musí být tato možnost VYPNUTA.",
             "warning": "VAROVÁNÍ! V nastavení scény je povolena možnost 'Nevypínat osvětlení' – vícenásobné úrovně tak nebudou správně fungovat. Kliknutí tento problém vyřeší."
         },
@@ -286,23 +286,23 @@
             "autoLevels": "Získat úrovně ze scény"
         },
         "err": {
-            "collision": "Levels: Pokus o pohyb koliduje s alespoň jednou podlahou, nebo stropem.",
+            "collision": "Levels: Pokus o pohyb koliduje s alespoň jednou podlahou či stropem.",
             "tokenOOB": "Levels: Výška tokenu %n přesahuje strop aktuálně vybrané úrovně. Prosím, manuálně nastav výšku tokenu, nebo zvyš úroveň. Více informací <a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>zde</a>.",
             "wallheight": "VAROVÁNÍ! Levels pro správnou funkčnost vyžadují ´Wall Height´ verze 4.1.0 nebo vyšší.",
-            "lessfog": "Levels: VAROVÁNÍ! Detekován modul ´Less Fog´ – viditelnost tokenů nebude fungovat správně. Prosím, deaktivuj jeden z těchto modulů.",
-            "tokenheight": "Levels: VAROVÁNÍ! Detekována povolená možnost 'Povolit výšku tokenu' v modulu ´Wall Height´ – tato volba není kompatibilní s Úrovněmi a byla deaktivována!",
-            "elevatedvision": "Levels: VAROVÁNÍ! Detekována povolená možnost 'Výchozí pro automatickou výšku tokenu' v modulu ´Elevated Vision´ – tato volba narušuje běžnou funkčnost Úrovní a byla deaktivována!",
-            "elevatedvisioncompat": "Levels: VAROVÁNÍ! Detekován modul ´Elevated Vision´ – tento modul narušuje běžnou funkčnost Úrovní a neměl by být současně s Úrovněmi používán."
+            "lessfog": "Levels: VAROVÁNÍ! Detekován modul ´Less Fog´. Viditelnost tokenů tak nebude fungovat správně. Prosím, deaktivuj jeden z těchto modulů.",
+            "tokenheight": "Levels: VAROVÁNÍ! Detekováno 'Povolení výšky tokenu' v modulu ´Wall Height´. Tato volba není kompatibilní s Úrovněmi a byla deaktivována!",
+            "elevatedvision": "Levels: VAROVÁNÍ! Detekována povolená možnost 'Výchozí pro automatickou výšku tokenu' v modulu ´Elevated Vision´. Tato volba narušuje běžnou funkčnost Levels a byla deaktivována!",
+            "elevatedvisioncompat": "Levels: VAROVÁNÍ! Detekován modul ´Elevated Vision´. Tento modul narušuje běžnou funkčnost Úrovní a neměl by být používán současně s Levels."
         },
         "info": {
-            "advancedMode": "Levels: Myla povolena možnost Pokročilý režim v modulu ´Better Roofs´."
+            "advancedMode": "Levels: Myla povolena možnost ´Pokročilý režim´ v modulu ´Better Roofs´."
         },
         "firsttime": {
             "dialog": "."
         },
         "conflicts": {
             "midiqol": {
-                "tokenvis": "Povolení možnosti 'Hráči ovládají vlastněné skryté tokeny' v MidiQOL způsobí problémy s viditelností tokenů. Prosím, zakaž tuto možnost v nastavení modulu."
+                "tokenvis": "Povolení možnosti 'Hráči ovládají vlastněné skryté tokeny' v MidiQOL způsobí problémy s viditelností tokenů. Prosím, zakaž tuto možnost v nastavení modulu Midi."
             }
         }
     }
