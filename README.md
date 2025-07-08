@@ -10,7 +10,7 @@ Tento modul poskytuje českou lokalizaci pro Levels verze 5.5.5. Obsahuje překl
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
 
 ```
-https://raw.githubusercontent.com/Lethrendis/CzechTranslationLevels/main/module.json
+https://raw.githubusercontent.com/Lethrendis/CzechTranslationLevels/Core12/module.json
 ```
 
 ## Autor
