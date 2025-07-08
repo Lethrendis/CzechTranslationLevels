@@ -13,7 +13,7 @@
                 "hint": "Zobrazí popisky nahoře a dole při najetí myší na objekty úrovní."
             },
             "tokenElevScale": {
-                "name": "Měřítko výšky",
+                "name": "Používat měřítko výšky?",
                 "hint": "Změní velikost tokenů podle výšky ovládaného tokenu."
             },
             "tokenElevScaleMultiSett": {
@@ -21,12 +21,12 @@
                 "hint": "Vynásobí měřítko výšky tímto číslem. Číslo větší než 1 tokeny zvětší, zatímco číslo menší než 1 je zmenší."
             },
             "fogHiding": {
-                "name": "Pokročilá válečná mlha",
-                "hint": "Skrýt neprobádaná patra z prozkoumané válečné mlhy."
+                "name": "Používat pokročilou válečnou mlhu?",
+                "hint": "Skryje neprobádaná patra z prozkoumané válečné mlhy."
             },
             "lockElevation": {
-                "name": "Uzamknout výšku",
-                "hint": "Zabrání hráčům měnit výšku v HUD tokenu. Měj na paměti, že pokud má hráč oprávnění upravovat tokeny, bude ji moci v nastavení tokenu změnit."
+                "name": "Uzamknout výšku?",
+                "hint": "Zabrání hráčům měnit výšku v HUDu tokenu. Měj na paměti, že pokud má hráč oprávnění upravovat tokeny, bude ji moci v nastavení tokenu měnit."
             },
             "defaultLosHeight": {
                 "name": "Výchozí výška tokenu",
@@ -45,15 +45,15 @@
                 "hint": "Odstraní artefakty blokace světla za cenu výkonu."
             },
             "preciseTokenVisibility": {
-                "name": "Přesná viditelnost tokenu",
-                "hint": "Povolením této možnosti se provádí kontrola viditelnosti nejen na střed tokenu, ale i na jeho rohy, což ovšem ovlivňuje výkon."
+                "name": "Používat přesnou viditelnost tokenu?",
+                "hint": "Po zaškrtnutí se provádí kontrola viditelnosti nejen středu tokenu, ale i na jeho rohů, což ovšem ovlivňuje výkon."
             },
             "exactTokenVisibility": {
-                "name": "Nejpřesnější viditelnost tokenu",
-                "hint": "Pro tuto možnost musí být povolena ´Přesná viditelnost tokenu´. Tato možnost provádí kontrolu v 11 bodech kolem rohů tokenu. Doporučeno při použití ´3D Canvas´."
+                "name": "Používat nejpřesnější viditelnost tokenu?",
+                "hint": "Pro tuto možnost musí být povolena ´Přesná viditelnost tokenu´. Tato možnost provádí kontrolu v 11 bodech kolem rohů tokenu. Doporučeno při používání ´3D Canvas´."
             },
             "multilevelFogFolder": {
-                "name": "Složka Víceúrovňové mlhy",
+                "name": "Složka víceúrovňové mlhy",
                 "hint": "Název složky pro ukládání vygenerovaných scén pro víceúrovňovou válečnou mlhu."
             },
             "blockSightMovement": {
@@ -65,14 +65,14 @@
                 "hint": "Vynucuje častější obnovování UI úrovní za cenu výkonu. Pokud je povoleno, může v některých herních systémech způsobovat problémy (např. PF2e)."
             },
             "hideElevation": {
-                "name": "Skrýt výšku",
+                "name": "Skrývání výšky",
                 "hint": "Skryje výšku u tokenů.",
                 "opt0": "Neskrývat",
-                "opt1": "Skrýt pro hráče",
-                "opt2": "Skrýt pro všechny"
+                "opt1": "Skrývat hráčům",
+                "opt2": "Skrývat všem"
             },
             "revealTokenInFog": {
-                "name": "Odhalení tokenu v mlze",
+                "name": "Odhalovat tokeny v mlze?",
                 "hint": "Pokud je token viditelný, odhalí válečnou mlhu kolem sebe."
             },
             "strictVisionCheck": {
@@ -80,8 +80,8 @@
                 "hint": "Pokud je vypnuto, zdroje světla typu ´Temnota´ nebudou vidění blokovat. Pokud je zapnuto, tak tokeny mimo zorný polygon, ale viditelné pro 3D výpočty vidění, budou viditelné."
             },
             "migrateOnStartup": {
-                "name": "Migrace nastavení při spuštění",
-                "hint": "Pokud je zaškrtnuto, modul při spuštění migruje data ze struktury V11 do V12. K manuální migraci můžeš použít makro 'CONFIG.Levels.helpers.migration.showManualMigrationDialog()'."
+                "name": "Migrovat nastavení při spuštění?",
+                "hint": "Po zaškrtnutí bude modul při spuštění migrovat data ze struktury V11 do V12. K manuální migraci můžeš použít makro 'CONFIG.Levels.helpers.migration.showManualMigrationDialog()'."
             }
         },
         "tileconfig": {
@@ -265,7 +265,7 @@
             "debugScene": "Ladit scénu (červená znamená detekované problémy)",
             "minElevDiff": "Minimální velikost úrovně",
             "tokenAttacher": "Umístit prefaby připojené k tokenu relativně k aktuální úrovni<hr>Pokud NEumisťuješ prefaby, musí být tato možnost VYPNUTA.",
-            "warning": "VAROVÁNÍ! V nastavení scény je povolena možnost 'Nevypínat osvětlení' – vícenásobné úrovně tak nebude správně fungovat. Kliknutí tento problém vyřeší."
+            "warning": "VAROVÁNÍ! V nastavení scény je povolena možnost 'Nevypínat osvětlení' – vícenásobné úrovně tak nebudou správně fungovat. Kliknutí tento problém vyřeší."
         },
         "yesnodialog": {
             "yes": "Potvrdit",
