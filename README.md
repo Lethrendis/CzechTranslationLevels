@@ -1,10 +1,10 @@
 
 # CzechLevels
 
-Czech translation of Levels version 5.5.5
+Czech translation of Levels version 6.0.13
 
 ## Popis
-Tento modul poskytuje českou lokalizaci pro Levels verze 5.5.5. Obsahuje překlady základních textů aplikace.
+Tento modul poskytuje českou lokalizaci pro Levels verze 6.0.13. Obsahuje překlady základních textů aplikace.
 
 ## Instalace
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
