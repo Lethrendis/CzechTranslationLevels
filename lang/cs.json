@@ -94,20 +94,20 @@
                 "name": "Výška (Spodní)"
             },
             "showIfAbove": {
-                "name": "Zobrazovat i při pohledu zespodu?",
-                "hint": "Pokud je zaškrtnuto, bude dlaždice viditelná i tehdy, když je token pod spodním rozsahem výšky (příklad použití: Balkóny)."
+                "name": "Zobrazovat i při pohledu zespoda?",
+                "hint": "Po zaškrtnutí bude dlaždice viditelná i tehdy, když je token pod spodním rozsahem výšky (příklad použití: balkóny)."
             },
             "showAboveRange": {
                 "name": "Maximální rozdíl výšky",
                 "hint": "Když je zaškrtnuta možnost 'Zobrazovat i při pohledu zespodu?', je toto maximální rozdíl výšky mezi tokenem a dlaždicí. Pokud je překročen, dlaždice se přestane zobrazovat."
             },
             "isBasement": {
-                "name": "Přísný rozsah",
-                "hint": "Pokud je zaškrtnuto, dlaždice se zobrazí pouze tehdy, když je token uvnitř rozsahu dlaždice, což znamená, že token nad horním rozsahem ji neuvidí."
+                "name": "Používat přísný rozsah?",
+                "hint": "Po zaškrtnutí se dlaždice zobrazí pouze tehdy, když je token uvnitř rozsahu dlaždice, což znamená, že token nad horním rozsahem ji neuvidí."
             },
             "noFogHide": {
-                "name": "V mlze se tato dlaždice nebude skrývat",
-                "hint": "Vyloučí tuto dlaždici z pokročilé válečné mlhy."
+                "name": "Zakázat skrývání dlaždice v mlze?",
+                "hint": "Zaškrtnutí vyloučí tuto dlaždici z pokročilé válečné mlhy."
             },
             "range": {
                 "unit": "Výška"
@@ -116,12 +116,12 @@
                 "name": "Vyloučení z kontroly scény"
             },
             "noCollision": {
-                "name": "Povolení viditelnosti",
-                "hint": "Pokud je zaškrtnuto, dlaždice nebude blokovat vidění."
+                "name": "Povolit vidění?",
+                "hint": "Po zaškrtnutí nebude dlaždice blokovat vidění."
             },
             "allWallBlockSight": {
-                "name": "Všechny zdi blokují vidění",
-                "hint": "Pokud je zaškrtnuto, všechny zdi pod touto dlaždicí budou blokovat vidění, pokud dlaždice není zakrytá."
+                "name": "Mají všechny zdi blokovat vidění?",
+                "hint": "Po zaškrtnutí budou všechny zdi pod touto dlaždicí, pokud dlaždice není zakrytá, blokovat vidění."
             }
         },
         "drawingconfig": {
@@ -272,7 +272,7 @@
             "no": "Zrušit"
         },
         "widget": {
-            "title": "Levels",
+            "title": "Úrovně",
             "element": "Úroveň"
         },
         "form": {
