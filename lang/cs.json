@@ -256,7 +256,7 @@
         "ui": {
             "title": "Nástroj úrovní",
             "players": "Zobrazit hráče",
-            "stair": "Umístit oblasti coby schody",
+            "stair": "Umístit schody",
             "addLevel": "Přidat novou úroveň",
             "editLevels": "Upravit úrovně",
             "getFromScene": "Získat úrovně ze scény",
