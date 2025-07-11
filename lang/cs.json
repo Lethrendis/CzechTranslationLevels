@@ -178,13 +178,13 @@
                 "notes": "Výška v jednotkách vzdálenosti, která určuje výšku efektů počasí."
             },
             "lightMasking": {
-                "name": "Úrovně: Nevypínat osvětlení",
-                "notes": "Pokud je zaškrtnuto, nebudou Úrovně řídit viditelnost osvětlení. Tato možnost by měla být ve scénách, které používají více úrovní, vypnuta."
+                "name": "Levels: Nevypínat osvětlení",
+                "notes": "Pokud je zaškrtnuto, nebudou Levels řídit viditelnost osvětlení. Tato možnost by měla být ve scénách, které používají více úrovní, vypnuta."
             }
         },
         "controls": {
             "main": {
-                "name": "Úrovně"
+                "name": "Levels"
             },
             "levelsview": {
                 "name": "Povolit zobrazení/umístění úrovní"
@@ -199,13 +199,13 @@
                 "name": "O jednu úroveň níž"
             },
             "levelsroof": {
-                "name": "Zobrazení/umístění střech"
+                "name": "Zobrazit/umístit střechy"
             },
             "levelshole": {
                 "name": "Při povolení umísťovat kresby jako schody, při zakázání jako otvory"
             },
             "levelsclear": {
-                "name": "Vymazat úrovně"
+                "name": "Odstranit úrovně"
             },
             "placeOverhead": {
                 "name": "Umístit dlaždice jako nadhledové 'uvnitř' úrovní"
@@ -219,13 +219,13 @@
         },
         "dialog": {
             "levelsclear": {
-                "title": "Vymazat úrovně",
+                "title": "Odstranit úrovně",
                 "content": "Vymazat všechny uložené úrovně?"
             },
             "define": {
                 "warn": "Definuje úrovně jako: spodní, horní|spodní, horní - např. 0,9|10,19|20,29",
                 "title": "Definování úrovní této scény",
-                "text": "Úrovně: "
+                "text": "Levels: "
             },
             "removeLevel": {
                 "title": "Odstranit úroveň",
@@ -290,9 +290,9 @@
             "tokenOOB": "Levels: Výška tokenu %n přesahuje strop aktuálně vybrané úrovně. Prosím, manuálně nastav výšku tokenu, nebo zvyš úroveň. Více informací <a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>zde</a>.",
             "wallheight": "VAROVÁNÍ! Levels pro správnou funkčnost vyžadují ´Wall Height´ verze 4.1.0 nebo vyšší.",
             "lessfog": "Levels: VAROVÁNÍ! Detekován modul ´Less Fog´. Viditelnost tokenů tak nebude fungovat správně. Prosím, deaktivuj jeden z těchto modulů.",
-            "tokenheight": "Levels: VAROVÁNÍ! Detekováno 'Povolení výšky tokenu' v modulu ´Wall Height´. Tato volba není kompatibilní s Úrovněmi a byla deaktivována!",
+            "tokenheight": "Levels: VAROVÁNÍ! Detekováno 'Povolení výšky tokenu' v modulu ´Wall Height´. Tato volba není kompatibilní s Levels a byla deaktivována!",
             "elevatedvision": "Levels: VAROVÁNÍ! Detekována povolená možnost 'Výchozí pro automatickou výšku tokenu' v modulu ´Elevated Vision´. Tato volba narušuje běžnou funkčnost Levels a byla deaktivována!",
-            "elevatedvisioncompat": "Levels: VAROVÁNÍ! Detekován modul ´Elevated Vision´. Tento modul narušuje běžnou funkčnost Úrovní a neměl by být používán současně s Levels."
+            "elevatedvisioncompat": "Levels: VAROVÁNÍ! Detekován modul ´Elevated Vision´. Tento modul narušuje běžnou funkčnost Levels a neměl by být používán současně."
         },
         "info": {
             "advancedMode": "Levels: Myla povolena možnost ´Pokročilý režim´ v modulu ´Better Roofs´."
