@@ -178,8 +178,8 @@
                 "notes": "Výška v jednotkách vzdálenosti, která určuje výšku efektů počasí."
             },
             "lightMasking": {
-                "name": "Má Levels zachovávat osvětlení?",
-                "notes": "Pokud je zaškrtnuto, nebude modul Levels řídit viditelnost osvětlení. Tato možnost by měla být ve scénách, které používají více úrovní, vypnuta."
+                "name": "Má Levels zachovat osvětlení?",
+                "notes": "Pokud je zaškrtnuto, nebude modul Levels řídit viditelnost osvětlení. Tato možnost by měla být ve scénách používajících více úrovní odškrtnuta."
             }
         },
         "controls": {
