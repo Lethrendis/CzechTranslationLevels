@@ -77,7 +77,7 @@
             },
             "strictVisionCheck": {
                 "name": "Přísná kontrola vidění",
-                "hint": "Pokud je vypnuto, zdroje světla typu ´Temnota´ nebudou vidění blokovat. Pokud je zapnuto, tak tokeny mimo zorný polygon, ale viditelné pro 3D výpočty vidění, budou viditelné."
+                "hint": "Pokud je vypnuto, zdroje světla typu ´Tma´ nebudou vidění blokovat. Pokud je zapnuto, tak budou tokeny mimo zorný polygon, ale viditelné pro 3D výpočty vidění, viditelné."
             },
             "migrateOnStartup": {
                 "name": "Migrovat nastavení při spuštění?",
@@ -85,8 +85,8 @@
             }
         },
         "tileconfig": {
-            "noOverhead": "Toto NENÍ nadhledová dlaždice, tato dlaždice bude vykreslena na úrovni pozadí. Chceš-li toto nastavení změnit, povol možnost 'Je nadhled?' na kartě nadhledu.",
-            "occlusionNone": "Režim zakrývání je nastaven na 'Žádné', tato dlaždice nebude blokovat viditelnost. Pokud chceš, aby viditelnost blokovala, nastav režim zakrývání na 'Postupné'.",
+            "noOverhead": "Toto NENÍ dlaždice nad hlavou, tato dlaždice bude vykreslena na úrovni pozadí. Chceš-li toto nastavení změnit, povol možnost 'Je nadhled?' na kartě nadhledu.",
+            "occlusionNone": "Režim mizení je nastaven na 'Žádný', tato dlaždice nebude blokovat vidění. Pokud chceš, aby vidění blokovala, nastav režim mizení na 'Zeslabení'.",
             "rangeTop": {
                 "name": "Výška (Horní)"
             },
@@ -99,7 +99,7 @@
             },
             "showAboveRange": {
                 "name": "Maximální rozdíl výšky",
-                "hint": "Když je zaškrtnuta možnost 'Zobrazovat i při pohledu zespodu?', je toto maximální rozdíl výšky mezi tokenem a dlaždicí. Pokud je překročen, dlaždice se přestane zobrazovat."
+                "hint": "Když je zaškrtnuta možnost 'Zobrazovat i při pohledu zespoda?', je toto maximální rozdíl výšky mezi tokenem a dlaždicí. Pokud je překročen, dlaždice se přestane zobrazovat."
             },
             "isBasement": {
                 "name": "Používat přísný rozsah?",
@@ -116,7 +116,7 @@
                 "name": "Vyloučení z kontroly scény"
             },
             "noCollision": {
-                "name": "Povolit vidění?",
+                "name": "Umožnt vidění?",
                 "hint": "Po zaškrtnutí nebude dlaždice blokovat vidění."
             },
             "allWallBlockSight": {
