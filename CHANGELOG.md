@@ -1,5 +1,5 @@
 Changelog
 
-Verze 1.1.0:
+Verze 1.2.0
 První verze modulu.
-Kompletní překlad Levels 6.0.14.
+Kompletní překlad Levels 6.0.21.
